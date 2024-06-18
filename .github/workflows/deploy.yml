@@ -4,7 +4,7 @@ name: CI
 
 on:
   repository_dispatch:
-    types: [trigger-workflow]
+    types: [trigger-workflow, workflow_dispatch]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
